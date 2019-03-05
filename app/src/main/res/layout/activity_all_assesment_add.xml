@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AllAssesmentAdd">
+
+    <TextView
+        android:layout_width="80dp"
+        android:layout_height="25dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="60dp"
+        android:text="Title"
+        />
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/allassessmentsaddtoolbar"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+
+        android:layout_alignParentTop="true"
+        android:background="@color/colorPrimary"
+        android:minHeight="?attr/actionBarSize">
+
+    </android.support.v7.widget.Toolbar>
+
+    <android.support.v7.widget.AppCompatSpinner
+        android:id="@+id/spinner"
+        android:layout_width="304dp"
+        android:layout_height="45dp"
+        android:layout_marginLeft="100dp"
+        android:layout_marginTop="83dp"
+
+        ></android.support.v7.widget.AppCompatSpinner>
+
+    <TextView
+        android:layout_width="80dp"
+        android:layout_height="25dp"
+        android:layout_marginTop="100dp"
+        android:text="Type"
+        android:layout_marginLeft="8dp"
+        />
+
+    <TextView
+        android:layout_width="80dp"
+        android:layout_height="25dp"
+        android:layout_marginTop="140dp"
+        android:layout_marginLeft="8dp"
+        android:text="Date"
+        />
+
+    <TextView
+        android:layout_width="80dp"
+        android:layout_height="25dp"
+
+        android:layout_marginTop="180dp"
+        android:layout_marginLeft="8dp"
+        android:text="Time" />
+
+    <EditText
+        android:id="@+id/Title"
+        android:layout_width="255dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_marginLeft="14dp"
+        android:layout_marginTop="42dp"
+        android:layout_marginRight="13dp"
+
+        android:hint="ex. C196 Assessment" />
+
+    <EditText
+        android:id="@+id/Date"
+        android:layout_width="255dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="122dp"
+        android:layout_marginRight="15dp"
+        android:hint="ex. 02/14/2019" />
+
+    <EditText
+        android:id="@+id/Time"
+        android:layout_width="255dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="162dp"
+        android:layout_marginRight="16dp"
+        android:hint="ex. 8:30PM" />
+
+    <TextView
+        android:layout_width="108dp"
+        android:layout_height="44dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="220dp"
+        android:text="Reminders"
+        android:textSize="18sp" />
+
+    <CheckBox
+        android:id="@+id/assessmentstartcheck"
+        android:layout_width="203dp"
+        android:layout_height="62dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_marginStart="119dp"
+        android:layout_marginLeft="119dp"
+        android:layout_marginTop="201dp"
+        android:text="StartDate"
+        android:textSize="15dp" />
+
+
+    <Button
+        android:id="@+id/SaveAssessment"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Save Assessment"
+        android:layout_marginTop="210dp"
+        android:layout_centerInParent="true"
+
+        />
+
+</RelativeLayout>

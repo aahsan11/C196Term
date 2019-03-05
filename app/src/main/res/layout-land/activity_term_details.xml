@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:fitsSystemWindows="true"
+
+    tools:context=".TermDetails"
+    tools:layout_editor_absoluteY="25dp">
+
+
+        <android.support.constraint.ConstraintLayout
+            android:id="@+id/root_course_details"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+
+                <android.support.v7.widget.Toolbar
+                    android:id="@+id/toolbar"
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:layout_alignParentStart="true"
+                    android:layout_alignParentTop="true"
+
+
+                    android:layout_marginBottom="24dp"
+
+                    android:background="@color/colorPrimary"
+                    app:layout_constraintBottom_toTopOf="@+id/termname"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    tools:ignore="RtlCompat">
+
+
+                </android.support.v7.widget.Toolbar>
+
+
+                <TextView
+
+
+                    android:layout_width="150dp"
+                    android:layout_height="60dp"
+                    android:layout_marginTop="88dp"
+                    android:text="Term Name"
+                    android:textAlignment="viewEnd"
+                    android:textSize="24sp"
+                    android:textStyle="bold"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    tools:ignore="DuplicateIds,RtlCompat" />
+
+
+                <EditText
+                    android:id="@+id/termname"
+
+                    android:layout_width="300dp"
+                    android:layout_height="60dp"
+                    android:layout_marginStart="188dp"
+                    android:layout_marginLeft="188dp"
+
+                    android:layout_marginTop="64dp"
+                    android:textAlignment="viewEnd"
+
+                    android:textSize="24sp"
+                    android:textStyle="bold"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    tools:ignore="RtlCompat" />
+
+                <TextView
+
+
+                    android:layout_width="148dp"
+                    android:layout_height="50dp"
+                    android:layout_marginTop="148dp"
+                    android:text="Start Date"
+                    android:textAlignment="viewEnd"
+                    android:textSize="24sp"
+                    android:textStyle="bold"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    tools:ignore="DuplicateIds,RtlCompat" />
+
+                <EditText
+                    android:id="@+id/termstart"
+
+                    android:layout_width="300dp"
+                    android:layout_height="60dp"
+                    android:layout_marginStart="188dp"
+                    android:layout_marginLeft="188dp"
+
+                    android:layout_marginTop="124dp"
+                    android:textAlignment="viewEnd"
+
+                    android:textSize="24sp"
+                    android:textStyle="bold"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    tools:ignore="RtlCompat" />
+
+
+                <TextView
+                    android:id="@+id/text_course_code"
+
+                    android:layout_width="146dp"
+                    android:layout_height="49dp"
+                    android:layout_marginStart="4dp"
+                    android:layout_marginLeft="4dp"
+                    android:layout_marginTop="208dp"
+                    android:text="End Date"
+                    android:textAlignment="viewEnd"
+                    android:textSize="24sp"
+                    android:textStyle="bold"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    tools:ignore="RtlCompat" />
+
+                <EditText
+                    android:id="@+id/termend"
+
+                    android:layout_width="300dp"
+                    android:layout_height="60dp"
+                    android:layout_marginStart="188dp"
+                    android:layout_marginLeft="188dp"
+
+                    android:layout_marginTop="184dp"
+                    android:textAlignment="viewEnd"
+
+                    android:textSize="24sp"
+                    android:textStyle="bold"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    tools:ignore="RtlCompat" />
+
+
+                <Button
+                    android:id="@+id/ViewCourses"
+
+                    android:layout_width="199dp"
+                    android:layout_height="77dp"
+                    android:layout_marginStart="148dp"
+                    android:layout_marginLeft="148dp"
+
+                    android:layout_marginTop="244dp"
+                    android:text="View Courses"
+
+
+                    android:textSize="24sp"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent" />
+
+
+
+        </android.support.constraint.ConstraintLayout>
+
+</ScrollView>

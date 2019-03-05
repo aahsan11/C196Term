@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">C196 Term Tracker</string>
+    <string name="currentterm">CurrentTerm</string>
+    <string name="allterm">AllTerm</string>
+    <string name="channel_name">notification channel</string>
+    <string name="channel_description">notificaiton channel description</string>
+
+    <string-array name="Type">
+        <item>Performance Assessment</item>
+        <item>Objective Assessment</item>
+    </string-array>
+
+</resources>
